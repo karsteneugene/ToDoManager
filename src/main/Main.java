@@ -17,7 +17,7 @@ public class Main extends Application {
         // Loads the Home view
         Parent root = FXMLLoader.load(getClass().getResource("fxml/Home.fxml"));
 
-        primaryStage.setTitle("Time Management");           // Sets the title of the window
+        primaryStage.setTitle("To-Do Manager");           // Sets the title of the window
 
         // Sets the Home view as the first scene
         Scene scene = new Scene(root, 854, 480);
