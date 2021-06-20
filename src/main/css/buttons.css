@@ -1,0 +1,30 @@
+.button {
+    -fx-background-color: #f0f0f0;
+}
+
+.button:hover {
+    -fx-background-color: #c7c7c7;
+}
+
+#addTask:hover {
+    -fx-background-color: #88ff78;
+}
+
+#deleteTask:hover {
+    -fx-background-color: #ff5959;
+}
+
+.button:pressed {
+    -fx-background-color: #000000;
+    -fx-text-fill: #ffffff;
+}
+
+#addTask:pressed {
+    -fx-background-color: #52ff3b;
+    -fx-text-fill: #000000;
+}
+
+#deleteTask:pressed {
+    -fx-background-color: #ff2424;
+    -fx-text-fill: #000000;
+}
